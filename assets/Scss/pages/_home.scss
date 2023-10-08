@@ -1,0 +1,373 @@
+//  search section start 
+#search{
+    width: 100%;
+    
+    .searchBar{
+        display: flex;
+    flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px 0;
+
+        .searchInput{
+            height: 45px;
+            border: 1px solid #BECCD6;
+            border-radius: 5px;
+            i{
+                padding: 10px;
+            }
+            input{
+                border: none;
+                padding: 9px 0px 9px 0px;
+                outline: none;
+                min-width: 300px;
+                
+                
+            }
+
+        }
+        select{
+            border-radius: 4px;
+            padding: 5px 20px;
+            border: 1px solid #BECCD6;
+        }
+        button{
+            background-color: #004274;
+            padding: 11px 22px;
+            border-radius: 5px;
+            border: none;
+        }
+    }
+}
+//  search section end 
+
+//  lightHouse section start  
+
+#lightHouse{
+    height: 90vh;
+    background: linear-gradient(to right, rgba(25,40,57,0.6) 0%, rgba(29,39,59,0.1) 100%),url(https://preview.colorlib.com/theme/konato/assets/img/hero/h1_hero1.jpg.webp);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+        a{
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            background-color: #00AEFF;
+            width: 170px; 
+            white-space: nowrap;
+            margin-top: 20px;
+        }
+        a:hover{
+            background-color: #004274;
+        }
+    }
+}
+//  lightHouse section end  
+
+//  displayLatestProperties section start  
+#displayLatestProperties{
+    max-height: 100%;
+    .container{
+        
+        margin: 0 auto;
+        padding: 100px 0 90px;
+        text-align: center;
+        .heading{
+            max-width: 50%;
+            margin: 0 auto;
+            p{
+                padding: 5px 50px;
+            }
+        }
+    }
+}
+//  displayLatestProperties section end  
+
+//  helpPeople section start  
+#helpPeople{
+
+    max-height: 100vh;
+    background: url(https://preview.colorlib.com/theme/konato/assets/img/gallery/section-bg1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        padding: 95px 0 65px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        .heading{
+        h2{
+            margin-bottom: 40px;
+        }
+        }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .card{
+                width: 330px;
+                height: 300px;
+                background-color: #00A0EB;
+                border-radius: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 30px;
+                div{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/services1.svg);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 100px;
+                    height: 100px;
+                }
+                .buildingIcon{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/services1.svg);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+                .houseIcon{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/services2.svg);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+                .cityIcon{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/services3.svg);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+            }
+        }
+    }
+}
+//  helpPeople section end  
+
+//  propertiesForSale section start  
+#propertiesForSale{
+    max-height: 100%;
+    .container{
+        
+        margin: 0 auto;
+        padding: 100px 0 90px;
+        text-align: center;
+        .heading{
+            h2{
+                margin-bottom: 50px;
+            }
+            max-width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+//  propertiesForSale section end  
+
+//  explore section start  
+#explore{
+    background-color: #F2F4F8;
+    .container{
+        width: 100%;
+        padding: 80px 0;
+        display: flex;
+        
+        align-items: center;
+        .heading{
+            a{
+                text-decoration: none;
+                
+                background-color: #00AEFF;
+                padding: 12px 32px;
+                border-radius: 5px;
+                display: inline-block;
+                margin-top: 10px;
+            }
+            a:hover{
+                background-color: #004274;
+            }
+        }
+        .boxes{
+            display: flex;
+            
+            .box{
+                padding: 40px 15px 35px 15px;
+                text-align: center;
+                width: 220px;
+                height: 200px;
+                background-color: #fff;
+                transition: 0.5s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                h5{
+                    margin-top: 20px;
+                }
+                .home{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/property1.svg);
+                    width: 70px;
+                    height: 70px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+                .vila{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/property2.svg);
+                    width: 70px;
+                    height: 70px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+                .studio{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/property3.svg);
+                    width: 70px;
+                    height: 70px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+                .office{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/icon/property4.svg);
+                    width: 70px;
+                    height: 70px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+            }
+            .box:hover{
+                box-shadow: 0 15px 25px rgba(35,47,85,0.1);
+            }
+        }
+    }
+}
+//  explore section end  
+
+//  ourAgents section start  
+#ourAgents{
+    max-height: 100%;
+    .container{
+        
+        margin: 0 auto;
+        padding: 100px 0 90px;
+        text-align: center;
+        .heading{
+            h2{
+                margin-bottom: 50px;
+            }
+            max-width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+//  ourAgents section end
+
+//  subscribe section start
+#subscribe{
+    height: 50vh;
+    display: flex;
+    width: 100%;
+    .heading{
+        padding: 80px;
+        width: 50%;
+        background-color: #004274;
+        color: white;
+        h2{
+            font-size: 38px;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        input{
+            min-width: 400px;
+            padding: 10px 0 10px;
+            border: none;
+            border-bottom: 2px solid white;
+            margin-bottom: 20px;
+            background-color: transparent;
+            font-size: 16px;
+        }
+        input::placeholder{
+            color: white;
+        }
+        button{
+            background-color: #00AEFF;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+    .img{
+        width: 50%;
+        background: url(https://preview.colorlib.com/theme/konato/assets/img/gallery/subscribe-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+//  subscribe section end
+
+@media (max-width: 660px) { 
+    .card-wrapper{
+        flex-direction: column;
+        
+    }
+    .boxes{
+        flex-wrap: wrap;
+    }
+    #explore{
+        background-color: #F2F4F8;
+        .container{
+            padding: 0;
+        }}
+    #menu{
+        display: none;
+    } 
+    nav{
+        .container{
+            .contact{
+
+                i{
+                    display: inline;
+                }}}}
+                // #search{
+                //     .searchBar{
+                //         max-width: 450px;}}
+} 
+  
+@media (min-width: 661px) and (max-width: 992px) { 
+    .card-wrapper{
+        flex-direction: column;
+        
+    }
+    .boxes{
+        flex-wrap: wrap;
+    }
+    #explore{
+        background-color: #F2F4F8;
+        .container{
+            padding: 0;
+        }}
+    #menu{
+        display: none;
+    } 
+    nav{
+        .container{
+            .contact{
+
+                i{
+                    display: inline;
+                }}}}
+                // #search{
+                //     .searchBar{
+                //         max-width: 450px;}}
+} 

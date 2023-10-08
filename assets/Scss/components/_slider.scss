@@ -1,0 +1,110 @@
+.carousel-control-prev {
+    left: -90px !important;
+}
+.carousel-control-next{
+    right: -90px !important;
+}
+// .card-wrapper{
+//     flex-direction: column;
+// }
+.card-wrapper{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    .card{
+        text-align: left;
+        border-radius: 0 !important;
+        width: 400px;
+        img{
+            border-radius: 0;
+            
+        }
+        
+        .price{
+            color: #00AEFF;
+            
+        }
+        h5{
+            margin: 5px 0 20px;
+            font-size: 20px;
+        }
+        p{
+            color: #5E5E5E;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #5E5E5E;
+            font-size: 16px;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+        .detail{
+            display: flex;
+            justify-content: space-between;
+            color: #192839;
+            font-size: 14px;
+            font-weight: 400;
+            span{
+                i{
+                    color: #c6c6c6;
+                }
+            }
+        }
+    }
+}
+
+#ourAgents{
+    .carousel-control-prev {
+        left: -90px !important;
+    }
+    .carousel-control-next{
+        right: -90px !important;
+    }
+    .card-wrapper{
+        width: 90%;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        .card{
+            border: none;
+            text-align: left;
+            border-radius: 0 !important;
+            width: 400px;
+            text-align: center;
+            
+            img{
+                border-radius: 0;
+                
+            }
+            
+            .price{
+                color: #00AEFF;
+                
+            }
+            h5{
+                margin: 5px 0 20px;
+                font-size: 20px;
+            }
+            p{
+                color: #5E5E5E;
+                font-size: 16px;
+                line-height: 1.6;
+                color: #5E5E5E;
+                font-size: 16px;
+                line-height: 1.6;
+                font-weight: 300;
+            }
+            .detail{
+                display: flex;
+                justify-content: space-between;
+                color: #192839;
+                font-size: 14px;
+                font-weight: 400;
+                span{
+                    i{
+                        color: #c6c6c6;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+footer{
+    .navigation{
+        
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 70px 0;
+            display: flex;
+            gap: 50px;
+            margin: 0 auto;
+            overflow: hidden;
+            .socialMedia{
+                
+                p{
+                    margin: 40px 0 20px;
+                    color: #5E5E5E;
+                    line-height: 1.8;
+                }
+                .img{
+                    background: url(https://preview.colorlib.com/theme/konato/assets/img/logo/logo2_footer.png.webp);
+                    width: 156px;
+                    height: 55px;
+                }
+            }
+            ul{
+                h4{
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                li{
+                    margin-top: 20px;
+                    a{
+                        color: #5E5E5E;
+                        text-decoration: none;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        text-align: center;
+        color: #5E5E5E;
+        background-color: #F2F6F9;
+        font-size: 14px;
+        padding: 13px;
+    }
+}
